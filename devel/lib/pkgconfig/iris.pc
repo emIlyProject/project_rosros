@@ -1,0 +1,8 @@
+prefix=/home/catipsum/Documents/ngeteh/devel
+
+Name: iris
+Description: Description of iris
+Version: 0.0.0
+Cflags: -I/home/catipsum/Documents/ngeteh/devel/include -I/home/catipsum/Documents/ngeteh/src/iris/include
+Libs: -L${prefix}/lib -liris
+Requires: roscpp std_msgs

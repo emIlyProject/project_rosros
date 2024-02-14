@@ -1,0 +1,6 @@
+<launch>
+    <!-- node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen"/ -->
+    <node name="pong" pkg="iris" type="pong" output="screen"/>
+    <node name="ball" pkg="iris" type="ball" output="screen"/>
+    <node name="key" pkg="iris" type="turtle_teleop_key" output="screen"/>
+</launch>
